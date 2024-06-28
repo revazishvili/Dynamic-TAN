@@ -1,0 +1,20 @@
+Cvens routerze
+
+sida interfeisi
+
+
+ip address მისამართი და მასკა
+ip nat inside
+no sh
+
+
+გარე პორტზე
+მისამართი
+ip nat outside
+
+
+კონფიგის დონეზე
+
+ip nat inside source static კომპის მისამართი და როუიტერის გარე მისამართი
+შემდეგ ნულოვანი მარშრუტი
+ip route 0.0.0.0 0.0.0.0 მეზობლის მისამართი
